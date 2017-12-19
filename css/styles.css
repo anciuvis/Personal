@@ -1,6 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   background-color: #e8e7de;
-  padding: 30px 150px;
+  margin: 0;
   font-family: 'Crimson Text';
 }
 
@@ -25,6 +29,10 @@ h2{
   font-weight: 400;
 }
 
+nav{
+  background-color: #c4c3ba;
+}
+
 nav ul{
   list-style: none;
   list-style-position: inside;
@@ -40,8 +48,40 @@ nav a {
   display: block;
   text-decoration: none;
   font-weight: bold;
+  font-size: 22px;
   text-transform: uppercase;
   transition: all 0.3s;
+}
+
+nav li:hover a,
+nav li.active a {
+  background-color: #00e7b9;
+}
+
+a{
+  padding: 10px 10px;
+}
+
+main{
+  padding: 30px 150px;
+}
+
+
+p{
+
+}
+
+.picture{
+  text-align: center;
+}
+
+hr {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 5px solid #c4c3ba;
+    margin: 1em 0;
+    padding: 0;
 }
 
 ul.social{
@@ -56,18 +96,4 @@ li.social{
   display: inline;
   padding: 15px 10px;
   margin: 15px 15px;
-}
-
-a{
-  padding: 10px 10px;
-}
-
-
-
-p{
-
-}
-
-hr{
-  color: green;
 }

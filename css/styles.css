@@ -13,7 +13,7 @@ header{
 }
 
 h1{
-  padding-right: 100px;
+  padding-right: 200px;
   color: #6a7e84;
   text-align: right;
   font-size: 25px;
@@ -22,7 +22,7 @@ h1{
 }
 
 h2{
-  padding-right: 100px;
+  padding-right: 200px;
   color: #6a7e84;
   text-align: right;
   font-size: 22px;
@@ -43,7 +43,7 @@ nav ul li {
 }
 
 nav a {
-  padding: 20px 30px;
+  padding: 20px 50px;
   color: #6a7e84;
   display: block;
   text-decoration: none;
@@ -53,9 +53,8 @@ nav a {
   transition: all 0.3s;
 }
 
-nav li:hover a,
-nav li.active a {
-  background-color: #00e7b9;
+nav li:hover a{
+  background-color: #a3a199;
 }
 
 a{
@@ -63,16 +62,15 @@ a{
 }
 
 main{
-  padding: 30px 150px;
-}
-
-
-p{
-
+  padding: 30px 100px;
 }
 
 .picture{
   text-align: center;
+}
+
+img{
+  border-radius:15px;
 }
 
 hr {

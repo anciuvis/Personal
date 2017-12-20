@@ -59,6 +59,7 @@ nav li:hover a{
 
 a{
   padding: 10px 10px;
+  display: inline-block;
 }
 
 main{
@@ -74,12 +75,12 @@ img{
 }
 
 hr {
-    display: block;
-    height: 5px;
-    border: 0;
-    border-top: 5px solid #c4c3ba;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 5px solid #c4c3ba;
+  margin: 1em 0;
+  padding: 0;
 }
 
 ul.social{
@@ -91,7 +92,7 @@ ul.social{
 }
 
 li.social{
-  display: inline;
-  padding: 15px 10px;
-  margin: 15px 15px;
+  display: inline-block;
+  padding: 0px 10px;
+  margin: 5px 15px;
 }

@@ -5,7 +5,7 @@
 body{
   background-color: #e8e7de;
   margin: 0;
-  font-family: 'Crimson Text';
+  font-family: 'Crimson Text', serif, Georgia;
 }
 
 header{
@@ -63,15 +63,46 @@ a{
 }
 
 main{
-  padding: 30px 100px;
+  padding: 10px 100px;
 }
 
-.picture{
+.picture-cont{
   text-align: center;
 }
 
-img{
+.image {
+  text-align: center;
   border-radius:15px;
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.picture-cont:hover .image {
+  opacity: 0.3;
+}
+
+.container-cont:hover .middle {
+  opacity: 1;
+}
+
+.text-pic {
+  background-color: #a3a199;
+  color: white;
+  font-size: 16px;
+  padding: 5px 5px;
 }
 
 hr {
@@ -88,10 +119,10 @@ ul.social{
   list-style-position: inside;
   margin: 0 auto;
   text-align: center;
-  padding: 20px 10px;
+  padding: 10px 10px;
 }
 
-li.social{
+li.soc-icon{
   display: inline-block;
   padding: 0px 10px;
   margin: 5px 15px;
